@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Centered within the 66dp safe zone (21dp to 87dp) -->
+    <!-- Heart shape centered at (54, 52) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,78 C54,78 30,62 30,44 C30,34 38,28 47,28 C51,28 53.5,30 54,32 C54.5,30 57,28 61,28 C70,28 78,34 78,44 C78,62 54,78 54,78 Z" />
+    <!-- Medical Plus Symbol inside Heart -->
+    <path
+        android:fillColor="#FF2D55"
+        android:pathData="M51.5,38 L56.5,38 L56.5,44 L62.5,44 L62.5,49 L56.5,49 L56.5,55 L51.5,55 L51.5,49 L45.5,49 L45.5,44 L51.5,44 Z" />
+</vector>

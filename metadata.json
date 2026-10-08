@@ -1,0 +1,6 @@
+{
+  "name": "PreCare",
+  "description": "Pregnancy Care, Women's First Aid, Report Analysis and Emergency Companion",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

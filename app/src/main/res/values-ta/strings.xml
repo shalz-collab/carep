@@ -1,0 +1,86 @@
+<resources>
+    <!-- App Identifiers -->
+    <string name="app_name">PreCare</string>
+    <string name="app_subtitle">கர்ப்ப பராமரிப்பு துணை</string>
+    <string name="welcome_title">PreCare க்கு வரவேற்கிறோம்</string>
+    <string name="welcome_subtitle">உங்கள் கர்ப்ப பராமரிப்பு துணை</string>
+    <string name="welcome_description">உங்கள் கர்ப்பத்தை புரிந்து கொள்ளுங்கள், முதலுதவி வழிகாட்டுதல் பெறுங்கள், அறிக்கைகளை பகுப்பாய்வு செய்து சிகிச்சை பெறுங்கள்.</string>
+    <string name="get_started">தொடங்கவும்</string>
+    <string name="emergency_help">அவசர உதவி</string>
+    <string name="tell_us_about_you">உங்களைப் பற்றி சொல்லுங்கள்</string>
+    <string name="full_name">முழு பெயர்</string>
+    <string name="age">வயது</string>
+    <string name="blood_group">இரத்த பிரிவு</string>
+    <string name="allergies">ஒவ்வாமைகள்</string>
+    <string name="medical_conditions">மருத்துவ நிலைமைகள்</string>
+    <string name="continue_btn">தொடரவும்</string>
+    <string name="skip_for_now">இப்போது தவிர்க்கவும்</string>
+    <string name="your_pregnancy">உங்கள் கர்ப்பம்</string>
+    <string name="are_you_pregnant">நீங்கள் தற்போது கர்ப்பமாக உள்ளீர்களா?</string>
+    <string name="last_menstrual_period">கடைசி மாதவிடாய் தேதி (LMP)</string>
+    <string name="expected_due_date">எதிர்பார்க்கப்படும் பிரசவ தேதி (EDD)</string>
+    <string name="first_pregnancy">இது உங்கள் முதல் கர்ப்பமா?</string>
+    <string name="current_week_hint">தற்போதைய வாரம் (தெரிந்தால்)</string>
+    <string name="emergency_contact">அவசர தொடர்பு</string>
+    <string name="contact_name">தொடர்பு நபர் பெயர்</string>
+    <string name="phone_number">தொலைபேசி எண்</string>
+    <string name="finish_setup">அமைப்பை முடிக்கவும்</string>
+
+    <!-- Navigation Tabs -->
+    <string name="home">முகப்பு</string>
+    <string name="first_aid">முதலுதவி</string>
+    <string name="reports">சேமித்த அறிக்கைகள்</string>
+    <string name="maya">மாயா</string>
+    <string name="settings">அமைப்புகள்</string>
+    <string name="scan_and_ocr">அறிக்கை ஸ்கேன்</string>
+    <string name="pregnancy_journey">கர்ப்ப பயணம்</string>
+    <string name="ai_health_analysis">AI சுகாதார பகுப்பாய்வு</string>
+    <string name="report_first_aid_plan">முதலுதவி திட்டம்</string>
+    <string name="nutrition">ஊட்டச்சத்து</string>
+
+    <!-- Actions & Buttons -->
+    <string name="analyze_new_report">புதிய அறிக்கையை பகுப்பாய்வு செய்</string>
+    <string name="start_analysis">உடனடி மருத்துவ பகுப்பாய்வை தொடங்கு</string>
+    <string name="upload_report_first">முதலில் கர்ப்ப அறிக்கையை பதிவேற்றவும்</string>
+    <string name="contact_doctor">மருத்துவரை அழைக்கவும்</string>
+    <string name="book_appointment">முன்பதிவு செய்ய</string>
+    <string name="ask_maya">மாயாவிடம் கேளுங்கள்</string>
+    <string name="view_full_report">முழு அறிக்கை பார்க்க</string>
+    <string name="view_first_aid_action_plan">உடனடி முதலுதவி &amp; கவனிப்பு</string>
+    <string name="save">சேமி</string>
+    <string name="cancel">ரத்து செய்</string>
+    <string name="done">முடிந்தது</string>
+    <string name="back">பின்செல்</string>
+    <string name="reset">மீட்டமை</string>
+    <string name="delete">நீக்கு</string>
+
+    <!-- Report Analysis & Statuses -->
+    <string name="status_normal">இயல்பானது (NORMAL)</string>
+    <string name="status_abnormal">கவனம் தேவை (ABNORMAL)</string>
+    <string name="status_urgent">அவசர கவனிப்பு தேவை (URGENT)</string>
+    <string name="status_below_range">வரம்பிற்குக் கீழே</string>
+    <string name="status_above_range">வரம்பிற்கு மேலே</string>
+    <string name="all_normal_summary">பகுப்பாய்வு செய்யப்பட்ட அனைத்து அளவீடுகளும் அறிக்கையில் குறிப்பிடப்பட்டுள்ள குறிப்பு வரம்பிற்குள் உள்ளன.</string>
+    <string name="what_should_i_do_next">அடுத்து நான் என்ன செய்ய வேண்டும்?</string>
+    <string name="what_it_means">இதன் பொருள்:</string>
+    <string name="what_to_do">செய்ய வேண்டியவை:</string>
+    <string name="analyzed_parameters">பகுப்பாய்வு செய்யப்பட்ட அளவீடுகள்</string>
+    <string name="reference_range">குறிப்பு வரம்பு</string>
+    <string name="invalid_report_error">சரியான கர்ப்ப மருத்துவ அறிக்கையை பதிவேற்றவும்.</string>
+
+    <!-- Settings & Profile -->
+    <string name="settings_title">அமைப்புகள் &amp; சுயவிவரம்</string>
+    <string name="personal_info">தனிப்பட்ட விவரங்கள்</string>
+    <string name="pregnancy_milestones">கர்ப்ப மைல்கற்கள்</string>
+    <string name="appearance_and_language">தோற்றம் &amp; மொழி</string>
+    <string name="app_theme">செயலி தீம்</string>
+    <string name="language">மொழி</string>
+    <string name="about_precare">PreCare பற்றி</string>
+    <string name="privacy_policy">தனியுரிமை &amp; பாதுகாப்பு</string>
+    <string name="delete_all_data">எனது உள்ளூர் தரவை நீக்கு</string>
+    <string name="consult_maya_title">மாயா AI ஆலோசனை</string>
+    <string name="consult_maya_desc">அறிகுறிகள், ஊட்டச்சத்து அல்லது முதலுதவி பராமரிப்பு பற்றி கேளுங்கள்.</string>
+
+    <!-- Disclaimer -->
+    <string name="medical_disclaimer">PreCare கல்வி மற்றும் முதலுதவி வழிகாட்டுதலை வழங்குகிறது மற்றும் தொழில்முறை மருத்துவ சிகிச்சைக்கு மாற்றாகாது. அவசரநிலை ஏற்பட்டால், உடனடியாக அவசர சேவைகளை அழைக்கவும்.</string>
+</resources>

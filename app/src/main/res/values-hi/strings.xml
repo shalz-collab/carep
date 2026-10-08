@@ -1,0 +1,86 @@
+<resources>
+    <!-- App Identifiers -->
+    <string name="app_name">PreCare</string>
+    <string name="app_subtitle">गर्भावस्था देखभाल साथी</string>
+    <string name="welcome_title">PreCare में आपका स्वागत है</string>
+    <string name="welcome_subtitle">आपका गर्भावस्था देखभाल साथी</string>
+    <string name="welcome_description">अपनी गर्भावस्था को समझें, प्राथमिक उपचार मार्गदर्शन प्राप्त करें, रिपोर्ट का विश्लेषण करें और समय पर देखभाल प्राप्त करें।</string>
+    <string name="get_started">शुरू करें</string>
+    <string name="emergency_help">आपातकालीन सहायता</string>
+    <string name="tell_us_about_you">अपने बारे में बताएं</string>
+    <string name="full_name">पूरा नाम</string>
+    <string name="age">उम्र</string>
+    <string name="blood_group">रक्त समूह</string>
+    <string name="allergies">एलर्जी</string>
+    <string name="medical_conditions">चिकित्सीय स्थितियाँ</string>
+    <string name="continue_btn">जारी रखें</string>
+    <string name="skip_for_now">अभी छोड़ें</string>
+    <string name="your_pregnancy">आपकी गर्भावस्था</string>
+    <string name="are_you_pregnant">क्या आप वर्तमान में गर्भवती हैं?</string>
+    <string name="last_menstrual_period">अंतिम मासिक धर्म की तिथि (LMP)</string>
+    <string name="expected_due_date">प्रसव की अपेक्षित तिथि (EDD)</string>
+    <string name="first_pregnancy">क्या यह आपकी पहली गर्भावस्था है?</string>
+    <string name="current_week_hint">वर्तमान सप्ताह (यदि ज्ञात हो)</string>
+    <string name="emergency_contact">आपातकालीन संपर्क</string>
+    <string name="contact_name">संपर्क व्यक्ति का नाम</string>
+    <string name="phone_number">फ़ोन नंबर</string>
+    <string name="finish_setup">सेटअप पूरा करें</string>
+
+    <!-- Navigation Tabs -->
+    <string name="home">होम</string>
+    <string name="first_aid">प्राथमिक चिकित्सा</string>
+    <string name="reports">सहेजी गई रिपोर्टें</string>
+    <string name="maya">माया</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="scan_and_ocr">रिपोर्ट स्कैन</string>
+    <string name="pregnancy_journey">गर्भावस्था यात्रा</string>
+    <string name="ai_health_analysis">AI स्वास्थ्य विश्लेषण</string>
+    <string name="report_first_aid_plan">प्राथमिक चिकित्सा योजना</string>
+    <string name="nutrition">पोषण</string>
+
+    <!-- Actions & Buttons -->
+    <string name="analyze_new_report">नई रिपोर्ट का विश्लेषण करें</string>
+    <string name="start_analysis">तत्काल चिकित्सा विश्लेषण शुरू करें</string>
+    <string name="upload_report_first">कृपया पहले गर्भावस्था रिपोर्ट अपलोड करें</string>
+    <string name="contact_doctor">डॉक्टर से संपर्क करें</string>
+    <string name="book_appointment">अपॉइंटमेंट बुक करें</string>
+    <string name="ask_maya">माया से पूछें</string>
+    <string name="view_full_report">पूरी रिपोर्ट देखें</string>
+    <string name="view_first_aid_action_plan">तत्काल प्राथमिक उपचार व देखभाल</string>
+    <string name="save">सहेजें</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="done">हो गया</string>
+    <string name="back">वापस</string>
+    <string name="reset">रीसेट</string>
+    <string name="delete">हटाएं</string>
+
+    <!-- Report Analysis & Statuses -->
+    <string name="status_normal">सामान्य (NORMAL)</string>
+    <string name="status_abnormal">ध्यान देने योग्य (ABNORMAL)</string>
+    <string name="status_urgent">तत्काल ध्यान दें (URGENT)</string>
+    <string name="status_below_range">सीमा से कम</string>
+    <string name="status_above_range">सीमा से अधिक</string>
+    <string name="all_normal_summary">विश्लेषण किए गए सभी पैरामीटर रिपोर्ट में दर्शाई गई सामान्य सीमा के भीतर हैं।</string>
+    <string name="what_should_i_do_next">मुझे आगे क्या करना चाहिए?</string>
+    <string name="what_it_means">इसका क्या अर्थ है:</string>
+    <string name="what_to_do">क्या करें:</string>
+    <string name="analyzed_parameters">विश्लेषित पैरामीटर</string>
+    <string name="reference_range">संदर्भ सीमा</string>
+    <string name="invalid_report_error">कृपया एक वैध गर्भावस्था चिकित्सा रिपोर्ट अपलोड करें।</string>
+
+    <!-- Settings & Profile -->
+    <string name="settings_title">सेटिंग्स और प्रोफ़ाइल</string>
+    <string name="personal_info">व्यक्तिगत जानकारी</string>
+    <string name="pregnancy_milestones">गर्भावस्था के चरण</string>
+    <string name="appearance_and_language">दिखावट और भाषा</string>
+    <string name="app_theme">ऐप थीम</string>
+    <string name="language">भाषा</string>
+    <string name="about_precare">PreCare के बारे में</string>
+    <string name="privacy_policy">गोपनीयता और सुरक्षा</string>
+    <string name="delete_all_data">मेरा स्थानीय डेटा हटाएं</string>
+    <string name="consult_maya_title">माया AI से परामर्श लें</string>
+    <string name="consult_maya_desc">लक्षणों, पोषण या प्राथमिक चिकित्सा के बारे में प्रश्न पूछें।</string>
+
+    <!-- Disclaimer -->
+    <string name="medical_disclaimer">PreCare केवल शैक्षिक और प्राथमिक चिकित्सा मार्गदर्शन प्रदान करता है और पेशेवर चिकित्सीय परामर्श का विकल्प नहीं है। आपातकाल में तुरंत आपातकालीन सेवाओं को कॉल करें।</string>
+</resources>

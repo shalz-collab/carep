@@ -1,0 +1,86 @@
+<resources>
+    <!-- App Identifiers -->
+    <string name="app_name">PreCare</string>
+    <string name="app_subtitle">Pregnancy Care Companion</string>
+    <string name="welcome_title">Welcome to PreCare</string>
+    <string name="welcome_subtitle">Your pregnancy care companion</string>
+    <string name="welcome_description">Understand your pregnancy, get first-aid guidance, analyze reports and find care when you need it.</string>
+    <string name="get_started">Get Started</string>
+    <string name="emergency_help">Emergency Help</string>
+    <string name="tell_us_about_you">Tell us about you</string>
+    <string name="full_name">Full Name</string>
+    <string name="age">Age</string>
+    <string name="blood_group">Blood Group</string>
+    <string name="allergies">Allergies</string>
+    <string name="medical_conditions">Medical Conditions</string>
+    <string name="continue_btn">Continue</string>
+    <string name="skip_for_now">Skip for now</string>
+    <string name="your_pregnancy">Your Pregnancy</string>
+    <string name="are_you_pregnant">Are you currently pregnant?</string>
+    <string name="last_menstrual_period">Last Menstrual Period (LMP)</string>
+    <string name="expected_due_date">Expected Due Date (EDD)</string>
+    <string name="first_pregnancy">Is this your first pregnancy?</string>
+    <string name="current_week_hint">Current week (if known)</string>
+    <string name="emergency_contact">Emergency Contact</string>
+    <string name="contact_name">Contact Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="finish_setup">Finish Setup</string>
+
+    <!-- Navigation Tabs -->
+    <string name="home">Home</string>
+    <string name="first_aid">First Aid</string>
+    <string name="reports">Saved Reports</string>
+    <string name="maya">Ask Maya</string>
+    <string name="settings">Settings</string>
+    <string name="scan_and_ocr">Scan &amp; OCR</string>
+    <string name="pregnancy_journey">Pregnancy Journey</string>
+    <string name="ai_health_analysis">AI Health Analysis</string>
+    <string name="report_first_aid_plan">Report First-Aid Plan</string>
+    <string name="nutrition">Nutrition</string>
+
+    <!-- Actions & Buttons -->
+    <string name="analyze_new_report">Analyze New Report</string>
+    <string name="start_analysis">Start Real-Time Medical Analysis</string>
+    <string name="upload_report_first">Please select or upload a report first</string>
+    <string name="contact_doctor">Contact Doctor</string>
+    <string name="book_appointment">Book Appointment</string>
+    <string name="ask_maya">Ask Maya</string>
+    <string name="view_full_report">View Full Report</string>
+    <string name="view_first_aid_action_plan">Immediate Home Care &amp; First Aid</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+    <string name="back">Back</string>
+    <string name="reset">Reset</string>
+    <string name="delete">Delete</string>
+
+    <!-- Report Analysis & Statuses -->
+    <string name="status_normal">NORMAL</string>
+    <string name="status_abnormal">ABNORMAL / ATTENTION REQUIRED</string>
+    <string name="status_urgent">URGENT</string>
+    <string name="status_below_range">BELOW RANGE</string>
+    <string name="status_above_range">ABOVE RANGE</string>
+    <string name="all_normal_summary">Your analyzed parameters are within the applicable reference ranges shown on the report.</string>
+    <string name="what_should_i_do_next">What Should I Do Next?</string>
+    <string name="what_it_means">What it means:</string>
+    <string name="what_to_do">What to do:</string>
+    <string name="analyzed_parameters">Analyzed Parameters</string>
+    <string name="reference_range">Reference Range</string>
+    <string name="invalid_report_error">Please upload a valid pregnancy medical report.</string>
+
+    <!-- Settings & Profile -->
+    <string name="settings_title">Settings &amp; Profile</string>
+    <string name="personal_info">Personal Information</string>
+    <string name="pregnancy_milestones">Pregnancy Milestones</string>
+    <string name="appearance_and_language">Appearance &amp; Language</string>
+    <string name="app_theme">App Theme</string>
+    <string name="language">Language</string>
+    <string name="about_precare">About PreCare</string>
+    <string name="privacy_policy">Privacy &amp; Security</string>
+    <string name="delete_all_data">Delete My Local Data</string>
+    <string name="consult_maya_title">Consult Maya AI</string>
+    <string name="consult_maya_desc">Ask questions regarding symptoms, nutrition, or first-aid care.</string>
+
+    <!-- Disclaimer -->
+    <string name="medical_disclaimer">PreCare provides educational and first-aid guidance and does not replace professional medical care. In an emergency, call emergency services immediately.</string>
+</resources>

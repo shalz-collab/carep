@@ -1,0 +1,159 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Profile {
+  id                String            @id @default(uuid())
+  name              String
+  age               String
+  bloodGroup        String?
+  allergies         String?
+  medicalConditions String?
+  createdAt         DateTime          @default(now())
+  updatedAt         DateTime          @updatedAt
+  pregnancy         PregnancyProfile?
+  emergencyContact  EmergencyContact?
+  appointments      Appointment[]
+  medicalReports    MedicalReport[]
+  chatSessions      ChatSession[]
+
+  @@map("profiles")
+}
+
+model PregnancyProfile {
+  id                  String   @id @default(uuid())
+  profileId           String   @unique
+  profile             Profile  @relation(fields: [profileId], references: [id], onDelete: Cascade)
+  lastMenstrualPeriod String
+  estimatedDueDate    String
+  currentWeek         Int
+  trimester           Int
+  firstPregnancy      Boolean  @default(true)
+  createdAt           DateTime @default(now())
+  updatedAt           DateTime @updatedAt
+
+  @@map("pregnancy_profiles")
+}
+
+model EmergencyContact {
+  id        String  @id @default(uuid())
+  profileId String  @unique
+  profile   Profile @relation(fields: [profileId], references: [id], onDelete: Cascade)
+  name      String
+  phone     String
+
+  @@map("emergency_contacts")
+}
+
+model Appointment {
+  id           String   @id @default(uuid())
+  profileId    String
+  profile      Profile  @relation(fields: [profileId], references: [id], onDelete: Cascade)
+  doctorName   String
+  hospitalName String
+  date         String
+  time         String
+  notes        String?
+  createdAt    DateTime @default(now())
+
+  @@index([profileId])
+  @@map("appointments")
+}
+
+model MedicalReport {
+  id             String         @id @default(uuid())
+  profileId      String
+  profile        Profile        @relation(fields: [profileId], references: [id], onDelete: Cascade)
+  fileName       String
+  fileType       String
+  uploadedAt     DateTime       @default(now())
+  documentStatus String         // VALID_MEDICAL_REPORT, NON_MEDICAL_IMAGE, INVALID_DOCUMENT, UNREADABLE
+  extractedText  String?        @db.Text
+  analysisStatus String         @default("COMPLETED")
+  results        ReportResult[]
+
+  @@index([profileId])
+  @@map("medical_reports")
+}
+
+model ReportResult {
+  id             String        @id @default(uuid())
+  reportId       String
+  report         MedicalReport @relation(fields: [reportId], references: [id], onDelete: Cascade)
+  testName       String
+  value          String
+  unit           String
+  referenceRange String
+  status         String        // Normal, Low, Attention, Urgent
+  confidence     Float         @default(0.95)
+  explanation    String?
+
+  @@index([reportId])
+  @@map("report_results")
+}
+
+model FirstAidContent {
+  id               String   @id
+  title            String
+  category         String
+  symptoms         String
+  immediateSteps   String   @db.Text
+  avoid            String   @db.Text
+  doctorWarning    String   @db.Text
+  emergencyWarning String   @db.Text
+  createdAt        DateTime @default(now())
+
+  @@map("first_aid_contents")
+}
+
+model PregnancyWeek {
+  id                 Int      @id
+  week               Int      @unique
+  trimester          Int
+  babyDevelopment    String   @db.Text
+  maternalChanges    String   @db.Text
+  careGuidance       String   @db.Text
+  nutritionGuidance  String   @db.Text
+  warningSigns       String   @db.Text
+  babySizeComparison String
+
+  @@map("pregnancy_weeks")
+}
+
+model NutritionContent {
+  id                String   @id @default(uuid())
+  category          String
+  title             String
+  description       String   @db.Text
+  safetyInformation String   @db.Text
+
+  @@map("nutrition_contents")
+}
+
+model ChatSession {
+  id        String        @id @default(uuid())
+  profileId String
+  profile   Profile       @relation(fields: [profileId], references: [id], onDelete: Cascade)
+  createdAt DateTime      @default(now())
+  messages  ChatMessage[]
+
+  @@index([profileId])
+  @@map("chat_sessions")
+}
+
+model ChatMessage {
+  id        String      @id @default(uuid())
+  sessionId String
+  session   ChatSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  role      String      // "user" | "maya"
+  message   String      @db.Text
+  createdAt DateTime    @default(now())
+
+  @@index([sessionId])
+  @@map("chat_messages")
+}
